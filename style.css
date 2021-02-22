@@ -1,0 +1,79 @@
+/*Estilos de la tabla de datos */
+
+td{
+    text-align: center;
+}
+
+input{
+    width: 90%;
+    text-align: center;
+}
+
+#numprocesos{
+    width: auto;
+    text-align: center;
+}
+
+#btnFIFO, #btnSJF, #btnSRTF{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    width: 110px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+    display: none;
+    margin-top: 1%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#crear{
+    cursor: pointer;
+}
+
+
+/* Estilos de la gráfica */
+
+#grafica, #resultados1, #resultados2{
+    position: relative;
+    top: 40px;
+    width: 100%;
+    border-spacing: 1px;
+    overflow-x: scroll;
+}
+
+
+
+.vertical{
+    min-width: 15px;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    border-right: 2;
+}
+
+.horizontal{
+    min-width: 15px;
+    border-top: solid 5;
+    border-left: 0;
+    border-bottom: 0;
+    border-right: 2;
+}
+
+.bloqueado{
+    border: 0;
+    background-color: red;
+}
+
+.ejecutandose{
+    border: 0;
+    background-color: rgb(11, 233, 11);
+}
+
+.esperando{
+    border: 0;
+    background-color: grey;
+}
+
+.inicioFin{
+    border: 0;
+    background-color:white;
+}
